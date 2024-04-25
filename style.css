@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+#main {
+    height: 94%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 0px 150px;
+    padding-top: 150px;
+    gap: 80px;
+}
+#left {
+    height: 100%;
+    width: 31%;
+    /* background-color: #0022ff; */
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    /* padding-bottom: 100px; */
+}
+
+#left h1 {
+    font-size: 100px;
+    font-weight: 500;
+    line-height: 105px;
+    font-family: arimo;
+}
+#bottom-left {
+    /* height: 40%; */
+    width: 100%;
+    /* background-color: #f3c9dd; */
+    margin-top: 140px;
+}
+#color{
+    /* background-color: #fff200; */
+    width: fit-content;
+    padding: 4px 12px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+#color h5{
+    font-size: 15px;
+    margin-right: 10px;
+    font-weight: 600;
+}
+#color1{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(255, 153, 0);
+    border-radius: 50%;
+    margin: 5px;
+}
+#color2{
+    height: 15px;
+    width: 15px;
+    background-color: palevioletred;
+    border-radius: 50%;
+}
+#left h2{
+    margin-top: 50px;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+#left p {
+    font-size: 15px;
+    width: 70%;
+    font-weight: 500;
+    color: #716969;
+    line-height: 20px;
+
+}
+
+#right {
+    height: 96%;
+    width: 28%;
+    /* background-color: #73ff00; */
+    position: relative;
+    margin-right: 200px;
+}
+#right-top {
+    height: 53px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+#right-top h4 { 
+    font-size: 20px;
+    font-weight: 600;
+   font-family: Noto Sans; 
+}
+#right-top h5 {
+    font-size: 15px;
+}
+#right-top h5 i{
+    color: gold;
+
+}
+#right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#black-circle {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: #181a34;
+    color: rgb(206, 202, 202);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -14%;
+    top: 40%; 
+} 
+#black-circle h5 {
+    font-size: 20px;
+    font-weight: 100;
+}
+#rotated {
+    position: absolute;
+    left: -17%;
+    bottom: -9%;
+    /* background-color: #dd00ff; */
+    rotate: -90deg;
+    transform-origin: 0 0;
+    font-family: Noto Sans;
+    font-size: 25px;
+    font-weight: 700;
+    
+}
+
